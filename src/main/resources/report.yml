@@ -1,0 +1,155 @@
+webhook-URL: ""
+selection-gui:
+  title: '&aSelect an option'
+  size: 3
+  items:
+    report:
+      gui-type: report
+      item-type: PLAYER_HEAD
+      item-slot: 11
+      item-name: "&4Report a Player"
+      lore:
+        - "&aClick to report a player."
+        - "&aDo not use unless required!"
+      glowing: true
+    suggestion:
+      gui-type: suggestion
+      item-type: BELL
+      item-slot: 13
+      item-name: "&4Put a suggestion"
+      lore:
+        - "&aClick to input a suggestion."
+        - "&aOnly real suggestion are taken seriously."
+      glowing: false
+    bugs:
+      gui-type: bug
+      item-type: ENDER_EYE
+      item-slot: 15
+      item-name: "&4Report a bug!"
+      lore:
+        - "&aClick to report a bug"
+      glowing: true
+reason-gui:
+  title: '&aReport'
+  size: 5
+  items:
+    advertising:
+      gui-type: "advertising"
+      item-type: RAW_GOLD
+      item-slot: 19
+      item-name: "&aAdvertising Report"
+      lore:
+        - "&aClick to report %player% for advertising"
+      glowing: false
+    impersonation:
+      gui-type: "impersonation"
+      item-type: OBSERVER
+      item-slot: 20
+      item-name: "&aimpersonation Report"
+      lore:
+        - "&aClick to report %player% for impersonating staff"
+      glowing: false
+    discrimination:
+      gui-type: "toxicity/discrimination"
+      item-type: RED_DYE
+      item-slot: 21
+      item-name: "&atoxicity/discrimination Report"
+      lore:
+        - "&aClick to report %player% for toxicity/discrimination"
+      glowing: false
+    hacks:
+      gui-type: "hacks/exploits"
+      item-type: DIAMOND_SWORD
+      item-slot: 22
+      item-name: "&ahacks/exploits Report"
+      lore:
+        - "&aClick to report %player% for hacks/exploits"
+      glowing: false
+    abusing:
+      gui-type: "abusing"
+      item-type: YELLOW_DYE
+      item-slot: 23
+      item-name: "&aAbusing report"
+      lore:
+        - "&aClick to report %player% for abusing"
+      glowing: true
+    spamming:
+      gui-type: "spamming"
+      item-type: BELL
+      item-slot: 24
+      item-name: "&aSpam report"
+      lore:
+        - "&aClick to report %player% for spam"
+      glowing: true
+    other:
+      gui-type: "other"
+      item-type: PAPER
+      item-slot: 25
+      item-name: "&aOther report"
+      lore:
+        - "&aClick to report %player% for other"
+      glowing: true
+    filler1:
+      gui-type: "none"
+      item-type: RED_STAINED_GLASS_PANE
+      item-slot: 0
+      item-name: " "
+      glowing: true
+    filler2:
+      gui-type: "none"
+      item-type: RED_STAINED_GLASS_PANE
+      item-slot: 1
+      item-name: " "
+      glowing: true
+    filler3:
+      gui-type: "none"
+      item-type: RED_STAINED_GLASS_PANE
+      item-slot: 2
+      item-name: " "
+      glowing: true
+    filler4:
+      gui-type: "none"
+      item-type: RED_STAINED_GLASS_PANE
+      item-slot: 3
+      item-name: " "
+      glowing: true
+    filler5:
+      gui-type: "none"
+      item-type: RED_STAINED_GLASS_PANE
+      item-slot: 5
+      item-name: " "
+      glowing: true
+    filler6:
+      gui-type: "none"
+      item-type: RED_STAINED_GLASS_PANE
+      item-slot: 6
+      item-name: " "
+      glowing: true
+    filler7:
+      gui-type: "none"
+      item-type: RED_STAINED_GLASS_PANE
+      item-slot: 7
+      item-name: " "
+      glowing: true
+    filler8:
+      gui-type: "none"
+      item-type: RED_STAINED_GLASS_PANE
+      item-slot: 8
+      item-name: " "
+      glowing: true
+    playerhead:
+      gui-type: "playerhead"
+      item-type: PLAYER_HEAD
+      item-slot: 4
+      item-name: "&aReport: %player%"
+      lore:
+        - "You are reporting %player%"
+      glowing: true
+    back:
+      gui-type: "back"
+      item-type: BARRIER
+      item-slot: 40
+      item-name: "&4Back"
+      item-lore:
+        - "&4Go back to previous screen"
+      glowing: false

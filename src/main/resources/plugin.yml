@@ -1,0 +1,8 @@
+name: Reports
+api-version: "1.19"
+author: Trendypanda
+description: TrendyReports Made by TrendyDevelopment
+main: net.trendydevelopment.reportplugin.Report
+version: 1.0
+commands:
+  report:
